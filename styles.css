@@ -33,12 +33,18 @@ body {
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    width: 150px; /* Set a fixed width for the square button */
-    height: 150px; /* Set the same height as the width to create a square button */
+    align-items: center;
+    justify-content: center;
+    max-width: 150px; /* Set maximum width for the button */
+    /* height: 150px; Set the same height as the width to create a square button */
     box-sizing: border-box;
     text-decoration: none; /* Remove the underline style for anchor tags */
-    text-align: center; /* Center the text inside the button */
-    line-height: 150px; /* Center the text vertically */
+    text-align: center;  /*Center the text inside the button */
+    /*word-wrap: break-word;  Allow words to be broken and wrap to the next line */
+    line-height: 0.5; /* Adjust line height to reduce the gap between lines */
+    overflow: hidden; /* Hide overflowing content */
+    vertical-align: middle; /* Vertically align the button */
+    white-space: pre-line; /* Allow text to wrap and break into multiple lines */
 }
 
 @media (min-width: 768px) {
