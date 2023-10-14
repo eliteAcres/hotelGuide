@@ -1,0 +1,17 @@
+name: My Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Environment Variable
+        run: echo "API_KEY=my-secret-api-key" >> $GITHUB_ENV
+
+      - name: Use Environment Variable
+        run: echo "API Key: $API_KEY"
+
