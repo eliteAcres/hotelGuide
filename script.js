@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { label: "Surrounding \n周围环境", link: "images/seaviewhotelmap.png" },
         { label: "Earth Hour \n地球一小时", link: "images/earthhour.png" },
         { label: "Energy Saving \n节能", link: "images/energysaving.png" },
-        { label: "Room Type \n房型", link: "images/hotelroomlist.png" }
+        { label: "Towel Guide \n毛巾指南", link: "images/towelguide.png" }
     ];
 
     var buttonsContainer = document.getElementById("buttons-container");
